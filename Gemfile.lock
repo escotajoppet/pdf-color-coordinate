@@ -4,14 +4,13 @@ GEM
     chroma (0.2.0)
     coderay (1.1.2)
     colormath (0.1.2)
-    iconv (1.0.8)
     method_source (1.0.0)
-    pdftoimage (0.1.7)
-      iconv (~> 1.0)
+    pkg-config (1.5.5)
     pry (0.13.1)
       coderay (~> 1.1)
       method_source (~> 1.0)
-    rmagick (4.1.1)
+    rmagick (5.3.0)
+      pkg-config (~> 1.4)
 
 PLATFORMS
   ruby
@@ -19,9 +18,8 @@ PLATFORMS
 DEPENDENCIES
   chroma
   colormath (~> 0.1.2)
-  pdftoimage (~> 0.1.7)
   pry
-  rmagick (~> 4.1, >= 4.1.1)
+  rmagick (~> 5.3)
 
 BUNDLED WITH
    2.1.2
